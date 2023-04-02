@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Seriff Pro', sans-serif;
+    text-align: center;
+}
+
+h1 {
+  font-family: 'Sanchez', Arial, Helvetica, sans-serif;
+  color: #03995A;
+}
+
+h2 {
+ font-family: 'Sanchez', sans-serif;
+ color: #03995A;
+}
+
+h3 {
+    font-family: 'Sanchez';
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-family: Sanchez;
+}
+nav {
+    height: 100px;
+}
+
+.logo-heading {
+    font-family: 'Pacifico';
+    color: black;
+    padding: 20px;
+}
+
+.first-container{
+    background-image: url(/photos-project/martin-widenka-tkfRSPt-jdk-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.picture-text-top{
+    text-align: center;
+    font-size:55px;
+    padding: 100px;
+}
+
+/* #moreRecipeButton {
+    margin-left: 50%;
+    border: none;
+    font-family: Pacifico;
+    padding: 20px;
+    border-radius: 20px;
+} */
+
+/* #featured {
+    background-color: #D9D9D9;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+footer {
+    background-image: url(/photos-project/brenda-godinez-MsTOg6rhRVk-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.video-container{
+    background-color: #D9D9D9;
+    align-content: center;
+    padding: 10%;
+}
+
+.teamMemberName {
+    font-family: 'Pacifico';
+}
+
+iframe {
+    height: 300px;
+}
+
+
+#featured{
+border: greenyellow solid 5px;
+  background-color: #D9D9D9;
+  display: grid;
+  grid-template-areas:
+  "title title title"
+  "second thumbnail thumbnail"
+  "ingredients thumbnail thumbnail"
+  "rating thumbnail thumbnail"
+  "similar similar similar"
+  "more more more";
+}
+
+#title{
+    border: rebeccapurple solid 2px;
+    grid-area: title;
+}
+
+#second-container-JS{
+    border: blue solid 2px;
+    grid-area: second;
+}
+#ingredients{ 
+    border: green solid 2px;
+    grid-area: ingredients;
+}
+#rating{
+    border: yellow solid 2px;
+    grid-area: rating;
+}
+#similar-food-list{
+    border: black solid 2px;
+    grid-area: similar;
+}
+#thumbnail{
+    border: orange solid 2px;
+    grid-area: thumbnail;
+    max-width: 100%;
+    max-height: 90vh;
+}
+#more-btn{
+    border: red solid 2px;
+    grid-area: more;
+    display: flex;
+    justify-content: center;
+}
+#moreRecipeButton {
+    /* border: red solid 2px;
+    grid-area: more; */
+    /* margin-left: 50%; */
+    border: none;
+    font-family: Pacifico;
+    padding: 20px;
+    border-radius: 20px;
+}
+
